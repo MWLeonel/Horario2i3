@@ -1,4 +1,37 @@
+/*TAG*/
 h1
 {
     text-align: center;
 }
+table
+{
+    width: 100%;
+}
+th
+{
+    background-color: rgb(7, 91, 201);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+td:nth-child(even)
+{
+    background-color: gray;
+    color: white;
+}
+td:nth-child(odd)
+{
+    background-color: darkgray;
+    color: white;
+}
+table, th, td 
+{
+    font-size: larger;
+    border: 1px solid black;
+    text-shadow: 0.5px 0.5px 1px black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1.5%;
+    text-align: center;
+}
+/*TAG*/
